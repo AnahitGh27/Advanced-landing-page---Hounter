@@ -1,0 +1,43 @@
+.card1 {
+    width: 37.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    &__picture {
+        width: 100%;
+        height: 38.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 1.6rem;
+        border-radius: 3.2rem;
+
+        &--1 {
+            background: url('img/card1-img1.jpeg') center/cover no-repeat;
+        }
+
+        &--2 {
+            background: url('img/card1-img2.jpeg') center/cover no-repeat;
+        }
+
+        &--3 {
+            background: url('img/card1-img3.jpeg') center/cover no-repeat;
+        }
+
+        &--4 {
+            background: url('img/card1-img4.jpeg') center/cover no-repeat;
+        }
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+    }
+
+    &__price {
+        color: $color-grey3;
+    }
+}
