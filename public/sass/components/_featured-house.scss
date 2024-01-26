@@ -1,0 +1,46 @@
+.featured-house {
+    &__subtitle {
+        padding: 0 12.4rem;
+        color: $color-secondary;
+        margin-bottom: .6rem;
+        position: relative;
+
+        &::before {
+            content: "";
+            display: inline-block;
+            width: 3.2rem;
+            height: .1rem;
+            background-color: $color-secondary;
+            position: absolute;
+            top: .8rem;
+            left: 8.4rem;
+        }
+    }
+
+    &__head {
+        padding: 0 12.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__buttons {
+        display: flex;
+        align-items: center;
+        gap: 2.7rem;
+    }
+
+    &__arrows {
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+    }
+
+    &__cards {
+        padding-left: 12.4rem;
+        display: flex;
+        max-width: 1440rem;
+        gap: 3.2rem;
+        overflow: scroll;
+    }
+}
