@@ -3,6 +3,38 @@
     align-items: center;
     gap: 1.6rem;
 
+    &__img-4--size32 {
+        width: 3.2rem;
+        height: 3.2rem;
+        border-radius: 3.2rem;
+        background: url('public/img/avatar04.jpeg') center/cover no-repeat;
+        box-shadow: 0px 9px 32px 0px rgba(89, 92, 219, 0.10);
+    }
+
+    &__img-5--size32 {
+        width: 3.2rem;
+        height: 3.2rem;
+        border-radius: 3.2rem;
+        background: url('public/img/avatar05.jpeg') center/cover no-repeat;
+        box-shadow: 0px 9px 32px 0px rgba(89, 92, 219, 0.10);
+    }
+
+    &__img-6--size32 {
+        width: 3.2rem;
+        height: 3.2rem;
+        border-radius: 3.2rem;
+        background: url('public/img/avatar06.jpeg') center/cover no-repeat;
+        box-shadow: 0px 9px 32px 0px rgba(89, 92, 219, 0.10);
+    }
+
+    &__img-7--size32 {
+        width: 3.2rem;
+        height: 3.2rem;
+        border-radius: 3.2rem;
+        background: url('public/img/avatar07.jpeg') center/cover no-repeat;
+        box-shadow: 0px 9px 32px 0px rgba(89, 92, 219, 0.10);
+    }
+
     &__img-1--size40 {
         width: 4rem;
         height: 4rem;
