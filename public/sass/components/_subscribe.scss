@@ -1,0 +1,84 @@
+.subscribe {
+    padding: 0 12.4rem;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        padding: 3.8rem 4rem;
+        border-radius: 1.8rem;
+        background: url('public/img/subscribe-bg.png') center/cover no-repeat;
+    }
+
+    &__left {
+        width: 30%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        &__img2-container {
+            padding-top: 3rem;
+            padding-left: 1rem;
+        }
+
+        &__img3-container {
+            padding-top: 3.4rem;
+            padding-left: 2.3rem;
+        }
+
+        &__img4-container {
+            padding-top: 3.8rem;
+        }
+    }
+    
+    &__right {
+        width: 30%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        &__img1-container {
+            justify-self: right;
+        }
+
+        &__img2-container {
+            padding-right: 1.8rem;
+            align-self: end;
+            justify-self: right;
+        }
+
+        &__img3-container {
+            justify-self: right;
+        }
+
+        &__img4-container {
+            padding-right: 1rem;
+            align-self: end;
+            justify-self: right;
+        }
+    }
+
+    &__middle {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    &__heading {
+        text-align: center;
+    }
+
+    &__img {
+        object-fit: cover;
+        border: 2px solid $color-white;
+    }
+    
+    &__img-radius24 {
+        border-radius: 2.4rem;
+    }
+    
+    &__img-radius36 {
+        border-radius: 3.6rem;
+    }
+}
