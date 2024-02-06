@@ -1,10 +1,15 @@
 import './public/sass/main.scss';
+import { customSelect } from './src/toggleSelect';
 import { scrollTo } from './src/scrollTo';
-import { closeCookie } from './src/closeCookie';
-import { addArticles } from './src/addArticles';
 import { slider } from './src/slider';
+import { addArticles } from './src/addArticles';
+import { chnageArticle } from './src/changeArticle';
+import { closeCookie } from './src/closeCookie';
 
-// scrollTo();
+customSelect();
+scrollTo();
+slider();
+addArticles();
+chnageArticle();
 closeCookie();
-// addArticles();
-// slider();
+

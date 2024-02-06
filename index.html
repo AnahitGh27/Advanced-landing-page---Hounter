@@ -30,7 +30,12 @@
                 <a
                   href="#"
                   class="navigation__link label label-style label-style--semibold-text"
-                  >Property</a
+                  >
+                  Property
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M12.6655 6.75684C12.6658 6.58031 12.6116 6.40924 12.5125 6.27331C12.4566 6.19681 12.3881 6.13357 12.3107 6.08722C12.2333 6.04087 12.1486 6.01231 12.0615 6.00319C11.9743 5.99407 11.8865 6.00456 11.8029 6.03405C11.7194 6.06355 11.6418 6.11148 11.5746 6.1751L8.00913 9.55978L4.43705 6.29598C4.36901 6.23322 4.29072 6.18636 4.20668 6.15808C4.12264 6.1298 4.03451 6.12066 3.94735 6.13119C3.86019 6.14172 3.77573 6.17171 3.69881 6.21944C3.62188 6.26717 3.55403 6.33169 3.49913 6.40931C3.43858 6.48747 3.3929 6.57902 3.36497 6.67819C3.33704 6.77736 3.32746 6.88201 3.33683 6.98559C3.3462 7.08916 3.37431 7.18942 3.41941 7.28007C3.46452 7.37072 3.52563 7.4498 3.59891 7.51235L7.59006 11.1615C7.70909 11.2726 7.85838 11.3333 8.01246 11.3333C8.16653 11.3333 8.31583 11.2726 8.43486 11.1615L12.426 7.38391C12.5065 7.30812 12.5701 7.21185 12.6117 7.10289C12.6534 6.99394 12.6718 6.87538 12.6655 6.75684Z" fill="white"/>
+                    </svg>
+                  </a
                 >
               </li>
             </ul>
@@ -142,6 +147,7 @@
           </div>
           </div>
       </section>
+
       <section class="featured-house u-mg-bottom-120">
         <p
           class="featured-house__subtitle label-style label-style--text subtitle--before"
@@ -612,7 +618,7 @@
               />
               <div class="find-more__places__left__description">
                 <div class="find-more__places__user user">
-                  <div class="user__img-4--size32"></div>
+                  <div class="find-more__places__user--img user__img-4--size32"></div>
                   <div class="user__description">
                     <p class="user__name label-style label-style--text">
                       Dianne Russell
@@ -648,7 +654,7 @@
               />
               <div class="find-more__places__left__description">
                 <div class="find-more__places__user user">
-                  <div class="user__img-5--size32"></div>
+                  <div class="find-more__places__user--img user__img-5--size32"></div>
                   <div class="user__description">
                     <p class="user__name label-style label-style--text">
                       Courtney Henry
@@ -684,7 +690,7 @@
               />
               <div class="find-more__places__left__description">
                 <div class="find-more__places__user user">
-                  <div class="user__img-6--size32"></div>
+                  <div class="find-more__places__user--img user__img-6--size32"></div>
                   <div class="user__description">
                     <p class="user__name label-style label-style--text">
                       Darlene Robertson
@@ -722,10 +728,10 @@
               />
               <div class="find-more__places__right__description">
                 <div class="find-more__places__user user">
-                  <div class="user__img-7--size32"></div>
+                  <div class="find-more__places__user--img user__img-7--size32"></div>
                   <div class="user__description">
-                    <p class="user__name label-style label-style--text">
-                      Dianne Russell
+                    <p class="find-more__places__user--name user__name label-style label-style--text">
+                      Cameron Williamson
                     </p>
                   </div>
                 </div>
@@ -746,7 +752,7 @@
                   <p
                     class="find-more__places__date-text label-style label-style--text"
                   >
-                    2 min read &#124; 24 Apr 2021
+                    8 min read &#124; 25 Apr 2021
                   </p>
                 </div>
               </div>
@@ -910,18 +916,24 @@
               placeholder="Your Surname"
             />
           </div>
-          <div class="form__input-container">
+          <div class="form__input-container form__select">
             <label
               for="education"
               class="form__label label-style label-style--medium-text"
               >Education</label
             >
-            <input
-              type="text"
-              class="input-container input-container--text"
-              id="education"
-              placeholder="Select one"
-            />
+            <div class="custom-select">
+              <div class="custom-select__btn custom-select__btn--size1">
+                <p class="custom-select__btn--text custom-select__btn--text1 label-style label-style--medium-text" id="selectedOption">Select one</p>
+                <img src="img/icons/arrow_down.svg" alt="Icon arrow-down" class="custom-select__btn--icon">
+              </div>
+              <div class="custom-select__options-container custom-select__options-container--size1">
+                <div class="custom-select__option custom-select__option--size1 label-style label-style--medium-text">HTML</div>
+                <div class="custom-select__option custom-select__option--size1 label-style label-style--medium-text">CSS</div>
+                <div class="custom-select__option custom-select__option--size1 label-style label-style--medium-text">JavaScritp</div>
+                <div class="custom-select__option custom-select__option--size1 label-style label-style--medium-text">React</div>
+              </div>
+            </div>
           </div>
           <div class="form__input-container">
             <label
