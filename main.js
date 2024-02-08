@@ -12,4 +12,5 @@ slider();
 addArticles();
 chnageArticle();
 closeCookie();
+document.querySelector('body').style.visibility = '';
 
